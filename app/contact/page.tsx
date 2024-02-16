@@ -44,7 +44,7 @@ const Designer = () => {
                 width="50"
                 height="50"
                 fill="currentColor"
-                class="bi bi-linkedin"
+           
                 viewBox="0 0 16 16"
                 color="white"
               >
@@ -60,7 +60,7 @@ const Designer = () => {
                 width="50"
                 height="50"
                 fill="currentColor"
-                class="bi bi-instagram"
+      
                 viewBox="0 0 16 16"
                 color="white"
               >
