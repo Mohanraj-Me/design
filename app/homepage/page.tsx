@@ -126,9 +126,9 @@ const HomePage = () => {
               <span>EXPLORE MY EARLY DESIGN</span>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-start">
-            <div className={Styles.imagepop} />
-            <div className="ms-5 d-flex flex-column">
+        <div className="d-flex align-items-center justify-content-start">
+            {/* <div className={Styles.imagepop} /> */}
+            <div className={`${Styles.in} ms-5 d-flex flex-column `}>
               <span className={Styles.intotext}>
                 &quot;Step into the past! Explore my early design crafted on
                 Wix—a showcase of customized creativity.&quot;
