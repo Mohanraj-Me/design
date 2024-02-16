@@ -245,3 +245,9 @@
   color: rgb(15, 15, 15);
   background-color: #e4e4e4;
 }
+
+.in {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 100px;
+}
