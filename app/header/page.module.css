@@ -1,0 +1,36 @@
+.header {
+  position: sticky !important;
+  top: 0;
+  font-size: 25px;
+  font-weight: 900;
+  height: 60px;
+  width: 100%;
+  background-color: #000000;
+  z-index: 5 !important;
+}
+
+.home {
+  color: #d3d3d3 !important;
+  cursor: pointer;
+}
+
+.contact {
+  color: #1f1f1f !important;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 900 !important;
+}
+
+.contactme {
+  color: #000000 !important;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px !important;
+}
+
+.button {
+  width: 200px;
+  color: #d3d3d3 !important;
+  border-radius: 50px !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+}

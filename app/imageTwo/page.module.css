@@ -1,0 +1,31 @@
+.carde {
+  width: 460px;
+  height: 460px;
+  background-image: url("../../public/3D//3DA.png");
+  background-size: cover; /* This ensures the image covers the entire container */
+  background-position: center;
+}
+
+.cardf {
+  width: 460px;
+  height: 460px;
+  background-image: url("../../public/3D//3DB.png");
+  background-size: cover; /* This ensures the image covers the entire container */
+  background-position: center;
+}
+
+.cardg {
+  width: 460px;
+  height: 460px;
+  background-image: url("../../public/3D//3DC.png");
+  background-size: cover; /* This ensures the image covers the entire container */
+  background-position: center;
+}
+
+.cardh {
+  width: 460px;
+  height: 460px;
+  background-image: url("../../public/3D//3DD.png");
+  background-size: cover; /* This ensures the image covers the entire container */
+  background-position: center;
+}
