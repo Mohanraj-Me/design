@@ -155,7 +155,7 @@
 }
 
 .imagepop {
-  background-image: url("/other/designold.png");
+  background-image: url("https://Mohanraj-Me.github.io/design/public/other/designold.png");
   background-repeat: no-repeat; /* Ensure background image doesn't repeat */
   background-size: cover; /* Specify the URL of the image directly */
   width: 700px;
