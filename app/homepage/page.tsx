@@ -33,7 +33,7 @@ const HomePage = () => {
   }, []);
 
   const handleDownload = () => {
-    const resumeUrl = "/public/other/Mohanraj.pdf";
+    const resumeUrl = "/other/Mohanraj.pdf";
     window.open(resumeUrl, "_blank");
   };
 
