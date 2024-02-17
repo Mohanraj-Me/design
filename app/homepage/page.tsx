@@ -34,7 +34,7 @@ const HomePage = () => {
 
   const handleDownload = () => {
     const resumeUrl = "/other/Mohanraj.pdf";
-    window.open(resumeUrl, "_blank");
+    window.open(resumeUrl);
   };
 
   const handleButtonClick = () => {
