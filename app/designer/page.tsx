@@ -58,6 +58,7 @@ const Designer = () => {
               >
                 SHOWCASE
               </span>
+
               <div className={`${Styles.image}`}>
                 <HoverCarousel images={images} />
               </div>

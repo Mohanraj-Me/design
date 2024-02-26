@@ -231,12 +231,20 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .hero {
+    background-color: #000000;
+    line-height: 150px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
   .knownTwo {
+    height: 100% !important;
     background-color: black;
-    height: 100vh !important;
+    padding-top: 250px !important;
+    padding-bottom: 250px !important;
   }
   .mail {
-    font-size: 25px;
+    font-size: 20px;
     color: #d3d3d3 !important;
     font-weight: 900;
   }
@@ -247,20 +255,22 @@
     padding: 20px;
   }
   .icon {
+    scale: 0.8;
     padding-top: 20px;
     padding-bottom: 20px;
   }
 
   .icontwo {
+    scale: 0.8;
     padding-top: 20px;
     padding-bottom: 20px;
   }
 
   .icon:hover {
-    scale: 1.1;
+    scale: 1;
   }
 
   .icontwo:hover {
-    scale: 1.1;
+    scale: 1;
   }
 }

@@ -14,7 +14,9 @@ const Developer = () => {
         <div className={`${Styles.knownTwo}`}>
           <span className={Styles.head}>DEVELOPER</span>
           <div>
-            <div className="d-flex align-item-center justify-content-start">
+            <div
+              className={`${Styles.con} ps-4 align-item-center justify-content-start`}
+            >
               <Button
                 className={`${Styles.buttonOne} px-5 py-2 mx-2 mt-3`}
                 variant="outline-dark"
@@ -109,7 +111,7 @@ const Developer = () => {
                 <div className="d-flex">
                   <div>
                     <Button
-                      className={`${Styles.card} ms-2 p-5 d-flex flex-column justify-content-start align-items-start`}
+                      className={`${Styles.card} ms-2  d-flex flex-column justify-content-start align-items-start`}
                     >
                       <span
                         style={{ marginBottom: "-50px" }}

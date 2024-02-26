@@ -64,9 +64,10 @@
   .con {
     width: auto;
     padding-left: 10px !important;
+    padding-right: 10px !important;
   }
   .showcase {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 900;
     color: rgb(15, 15, 15);
   }
@@ -74,7 +75,14 @@
     /* border-color: #9c9c9c; */
     background-color: black !important;
     cursor: default !important;
-    padding-right: 100px !important;
-    padding-left: 100px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  .backer {
+    background-color: #000000;
+  }
+  .image img {
+    width: auto; /* Adjust the width as needed */
+    height: 300px !important; /* Maintain aspect ratio */
   }
 }
