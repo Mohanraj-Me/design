@@ -34,7 +34,7 @@ const HomePage = () => {
 
   const handleDownload = () => {
     const resumeUrl = "/other/Mohanraj.pdf";
-    window.open(resumeUrl);
+    window.open(resumeUrl, "_blank");
   };
 
   const handleButtonClick = () => {
@@ -57,7 +57,7 @@ const HomePage = () => {
             <Button
               variant="outline-light"
               onClick={handleDownload}
-              className={`${Styles.button} m-3`}
+              className={`${Styles.button}`}
             >
               DOWNLOAD CV
             </Button>
@@ -95,7 +95,7 @@ const HomePage = () => {
               <Button className={Styles.dev}>DEVELOPER</Button>
             </Link>
           </div>
-          <div className="d-flex ">
+          <div className={`${Styles.twoCon}`}>
             <div
               className={`${Styles.showcaseout} d-flex align-items-center justify-content-center`}
             >
@@ -122,18 +122,18 @@ const HomePage = () => {
         </div> */}
         <div>
           <div className={`${Styles.back}`}>
-            <div className={`${Styles.scroll} d-flex`}>
+            <div className={`${Styles.scroll}`}>
               <span>EXPLORE MY EARLY DESIGN</span>
             </div>
           </div>
-        <div className="d-flex align-items-center justify-content-start">
+          <div className="d-flex align-items-center justify-content-start">
             {/* <div className={Styles.imagepop} /> */}
-            <div className={`${Styles.in} ms-5 d-flex flex-column `}>
+            <div className={`${Styles.in} d-flex flex-column `}>
               <span className={Styles.intotext}>
                 &quot;Step into the past! Explore my early design crafted on
                 Wix—a showcase of customized creativity.&quot;
               </span>
-              <span className={`${Styles.intotext} ps-2`}>
+              <span className={`${Styles.intotext}`}>
                 Click the button for a glimpse of my old portfolio version.
               </span>
               <Button

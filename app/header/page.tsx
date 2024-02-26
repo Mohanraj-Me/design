@@ -1,5 +1,8 @@
 "use client";
 
+// Header.js
+
+// Import necessary modules
 import Styles from "./page.module.css";
 import { useState } from "react";
 import Link from "next/link";
@@ -11,6 +14,7 @@ const Header = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
   return (
     <div
       className={`${Styles.header} d-flex align-items-center justify-content-between p-4`}
@@ -25,11 +29,11 @@ const Header = () => {
           onClick={handleShow}
           className={`${Styles.button} px-3`}
         >
-          Menu
+          Showcase
         </Button>
 
         <Offcanvas show={show} onHide={handleClose} placement={"bottom"}>
-          <Offcanvas.Header closeButton>
+          <Offcanvas.Header>
             <Offcanvas.Title></Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>

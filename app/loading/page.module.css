@@ -27,3 +27,12 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .loadingspinnercontainer {
+    font-weight: 900;
+    font-size: 100px;
+    background-color: black;
+    color: rgb(26, 26, 26);
+  }
+}

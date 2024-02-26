@@ -103,7 +103,15 @@
   font-size: 30px;
   width: 1300px;
 }
+.icon {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.icontwo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .icon:hover {
   scale: 1.1;
 }
@@ -220,4 +228,39 @@
   background-color: #bebebe;
   margin: 50px;
   border-radius: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .knownTwo {
+    background-color: black;
+    height: 100vh !important;
+  }
+  .mail {
+    font-size: 25px;
+    color: #d3d3d3 !important;
+    font-weight: 900;
+  }
+  .text {
+    color: #525252;
+    font-size: 15px;
+    width: auto;
+    padding: 20px;
+  }
+  .icon {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .icontwo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .icon:hover {
+    scale: 1.1;
+  }
+
+  .icontwo:hover {
+    scale: 1.1;
+  }
 }

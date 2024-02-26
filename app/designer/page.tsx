@@ -15,9 +15,11 @@ const Designer = () => {
         className={`${Styles.backer} d-flex align-items-center justify-content-between`}
       >
         <div className={`${Styles.knownTwo}`}>
-          <span className={`${Styles.head} ps-4`}>3D DESIGNER</span>
+          <span className={`${Styles.head}`}>3D DESIGNER</span>
           <div>
-            <div className="ps-4 d-flex align-item-center justify-content-start">
+            <div
+              className={`${Styles.con} ps-4 align-item-center justify-content-start`}
+            >
               <Button
                 className={`${Styles.buttonOne} px-5 py-2 mx-2 mt-3`}
                 variant="outline-dark"
@@ -56,7 +58,9 @@ const Designer = () => {
               >
                 SHOWCASE
               </span>
-              <HoverCarousel images={images} />
+              <div className={`${Styles.image}`}>
+                <HoverCarousel images={images} />
+              </div>
             </div>
           </div>
         </div>

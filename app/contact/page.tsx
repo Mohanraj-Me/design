@@ -38,13 +38,12 @@ const Designer = () => {
         </span>
         <span>
           <div className="d-flex">
-            <div className={`${Styles.icon} my-5`} onClick={handleLinkedClick}>
+            <div className={`${Styles.icon}`} onClick={handleLinkedClick}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
                 height="50"
                 fill="currentColor"
-           
                 viewBox="0 0 16 16"
                 color="white"
               >
@@ -52,7 +51,7 @@ const Designer = () => {
               </svg>
             </div>
             <div
-              className={`${Styles.icontwo} my-5 ms-4`}
+              className={`${Styles.icontwo} ms-4`}
               onClick={handleInstaClick}
             >
               <svg
@@ -60,7 +59,6 @@ const Designer = () => {
                 width="50"
                 height="50"
                 fill="currentColor"
-      
                 viewBox="0 0 16 16"
                 color="white"
               >
