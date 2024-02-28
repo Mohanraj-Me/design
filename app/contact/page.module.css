@@ -240,8 +240,8 @@
   .knownTwo {
     height: 100% !important;
     background-color: black;
-    padding-top: 250px !important;
-    padding-bottom: 250px !important;
+    padding-top: 100px !important;
+    padding-bottom: 0px !important;
   }
   .mail {
     font-size: 20px;

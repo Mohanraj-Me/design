@@ -43,11 +43,11 @@ const Header = () => {
               </Link>
 
               <Link href="/uidesigner" className="nav-link">
-                <span className={`${Styles.contact}`}>UI</span>
+                <span className={`${Styles.contact}`}>UI UX</span>
               </Link>
 
               <Link href="/designer" className="nav-link">
-                <span className={`${Styles.contact}`}>3D</span>
+                <span className={`${Styles.contact}`}>& MORE</span>
               </Link>
             </div>
           </Offcanvas.Body>

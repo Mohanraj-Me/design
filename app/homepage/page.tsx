@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Button, Accordion, Card, Spinner } from "react-bootstrap";
+import { Button, Accordion, Card, Spinner, Modal } from "react-bootstrap";
 import Styles from "./page.module.css";
 import baffle from "baffle";
 import Link from "next/link";
@@ -17,6 +17,8 @@ const HomePage = () => {
     "UX-Course-6.jpg",
     "UX-Course-7.jpg",
   ];
+
+  const [showModal, setShowModal] = useState(false);
   useEffect(() => {
     const designs = document.querySelectorAll(`.${Styles.design}`);
 
@@ -30,10 +32,34 @@ const HomePage = () => {
       text.start();
       text.reveal(100000);
     });
+
+    // Check if the device is a mobile or tablet
+    const isMobileOrTablet =
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      );
+
+    if (isMobileOrTablet) {
+      // Delay showing the modal by 2 seconds
+      setTimeout(() => {
+        setShowModal(true);
+      }, 2000);
+      // Disable all clickable links on the homepage
+      const links = document.querySelectorAll("a");
+      links.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+        });
+      });
+    }
   }, []);
 
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
   const handleDownload = () => {
-    const resumeUrl = "/other/Mohanraj.pdf";
+    const resumeUrl = "/other/Mohanraj_CV.pdf";
     window.open(resumeUrl, "_blank");
   };
 
@@ -43,6 +69,11 @@ const HomePage = () => {
 
   return (
     <div className={Styles.body}>
+      <div
+        className={`${Styles.backtest}  d-flex align-items-center justify-content-center`}
+      >
+        <span className={`${Styles.showcaseee}`}>BUCKLE UP</span>
+      </div>
       <div>
         <div
           className={`${Styles.hero} p-3 d-flex align-items-start justify-content-center flex-column`}
@@ -51,9 +82,6 @@ const HomePage = () => {
           <span className={Styles.design}>DESIGN</span>
           <span className={Styles.design}>ENTHUSIAST</span>
           <div className="d-flex d-inline-block">
-            {/* <Button variant="light" className={`${Styles.button} my-3 ms-3 `}>
-                CONNECT FOR WORK
-              </Button> */}
             <Button
               variant="outline-light"
               onClick={handleDownload}
@@ -76,11 +104,8 @@ const HomePage = () => {
             to embark on new journeys and stretch the limits of my imagination.
           </span>
         </div>
-        <span
-          className={`${Styles.showcaseee} d-flex align-item-center justify-content-center`}
-        >
-          BUCKLE UP
-        </span>
+
+        <div className={`${Styles.slideover}`}></div>
         {/* <span
           className={`${Styles.showcasee} d-flex align-item-center justify-content-center`}
         >
@@ -100,17 +125,18 @@ const HomePage = () => {
               className={`${Styles.showcaseout} d-flex align-items-center justify-content-center`}
             >
               <Link href="/uidesigner">
-                <Button className={Styles.dev}>UI</Button>
+                <Button className={Styles.dev}>UI UX</Button>
               </Link>
             </div>
             <div
               className={`${Styles.showcaseoutin} d-flex align-items-center justify-content-center`}
             >
               <Link href="/designer">
-                <Button className={Styles.dev}>3D</Button>
+                <Button className={Styles.dev}>&MORE</Button>
               </Link>
             </div>
           </div>
+          {/* <span>my works in</span> */}
         </div>
         {/* <div className="bg-dark ">
           <span
@@ -120,6 +146,7 @@ const HomePage = () => {
           </span>
           <HoverCarousel images={images} />
         </div> */}
+
         <div>
           <div className={`${Styles.back}`}>
             <div className={`${Styles.scroll}`}>
@@ -138,15 +165,38 @@ const HomePage = () => {
               </span>
               <Button
                 variant="dark"
-                className={`${Styles.butto} px-5 mt-4`}
+                className={`${Styles.butto} px-5 mt-4 `}
                 onClick={handleButtonClick}
               >
-                Visit old version
+                <span className="pe-2">Visit old version</span>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"
+                  />
+                </svg>
               </Button>
             </div>
           </div>
         </div>
       </div>
+      <Modal show={showModal} onHide={handleCloseModal}>
+        <Modal.Body>
+          <div className="d-flex flex-column">
+            Mobile experience in progress. Switch to desktop for best view.
+            <Button variant="dark" className="mt-4" onClick={handleCloseModal}>
+              Okay, got it
+            </Button>
+          </div>
+        </Modal.Body>
+      </Modal>
     </div>
   );
 };
