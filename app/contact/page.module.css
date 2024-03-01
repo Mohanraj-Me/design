@@ -1,276 +1,101 @@
-.hero {
-  background-color: #000000;
-  line-height: 150px;
-  padding-top: 250px !important;
-  padding-bottom: 50px !important;
-}
-
-.design {
-  font-size: 200px;
-  font-weight: 900;
-  color: #d3d3d3 !important;
-}
-
-.button {
-  width: 500px;
-  height: 50px;
-  border-radius: 0px !important;
-}
-
-.heroTwo {
-  background-color: rgb(0, 0, 0);
-  padding-top: 150px !important;
-  padding-bottom: 250px !important;
-}
-
-.heroThree {
-  background-color: rgb(255, 255, 255);
-  padding-top: 50px !important;
-  padding-bottom: 150px !important;
-}
-
-.para {
-  font-size: 30px;
-  line-height: 60px;
-  color: #d3d3d3 !important;
-  width: 1500px;
-}
-
-.known {
-  padding-top: 250px !important;
-  padding-bottom: 300px !important;
-}
-
-.knownTwo {
-  background-color: black;
-  padding-top: 250px !important;
-  padding-bottom: 300px !important;
-}
-
-.knownThree {
-  background-color: black;
-  padding-top: 100px !important;
-  padding-bottom: 100px !important;
-}
-
-.buttonOne {
-  color: #b3b3b3 !important;
-  border-radius: 0px !important;
-  letter-spacing: 2px;
-  height: 50px;
-  padding-right: 0;
-  padding-left: 0;
-  transition: padding-right 0.5s, padding-left 0.5s;
-}
-
-.buttonOne:hover {
-  background-color: black;
-  padding-right: 200px !important;
-  padding-left: 200px !important;
-}
-
-.buttonTwo {
-  color: #383838 !important;
-  border-color: #dadada !important;
-  border-radius: 0px !important;
-  background-color: #ffffff !important;
-  letter-spacing: 2px;
-  height: 50px;
-  padding-right: 0;
-  padding-left: 0;
-  transition: padding-right 0.5s, padding-left 0.5s;
-}
-
-.buttonTwo:hover {
-  padding-right: 200px !important;
-  padding-left: 200px !important;
-}
-
-.head {
-  font-size: 100px;
-  color: #d3d3d3 !important;
-  font-weight: 900;
-}
-
 .mail {
   font-size: 80px;
-  color: #d3d3d3 !important;
+
   font-weight: 900;
 }
 
 .text {
-  color: #525252;
+  color: #b1b1b1;
   font-size: 30px;
-  width: 1300px;
-}
-.icon {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.icontwo {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.icon:hover {
-  scale: 1.1;
-}
-
-.icontwo:hover {
-  scale: 1.1;
-}
-
-.loading {
-  width: 500px;
-  height: 50px;
-  border-radius: 0px !important;
-}
-
-.loading::after {
-  width: 500px;
-  height: 50px;
-  border-radius: 0px !important;
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 4px solid transparent;
-}
-
-.back {
-  background-color: #000000 !important;
-}
-
-.scroll {
-  color: #ffffff;
-  font-size: 100px;
-  font-weight: 900;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100%;
-  /* animation: scrollAnimation 20s linear infinite; */
-  animation: scrollAnimation 20s linear infinite;
-}
-
-@keyframes scrollAnimation {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.imagepop {
-  width: 600px;
-}
-
-.intotext {
-  font-size: 18px;
-  width: 900px;
+  padding-left: 50px;
 }
 
 .butto {
-  width: 100%;
-  height: 50px !important;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff !important;
+  width: 100px;
+  height: 100px !important;
   background-color: #000000 !important;
   border-style: none !important;
-  border-radius: 0px !important;
+  border-radius: 50px !important;
+}
+
+.butto:hover {
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff !important;
+  width: 100px;
+  height: 100px !important;
+  background-color: #000000 !important;
+  border-style: none !important;
+  border-radius: 50px !important;
+  padding-bottom: 15px;
 }
 
 .body {
   overflow: hidden;
 }
 
-.showcase {
-  background-color: #000000;
-  width: 100%;
-  padding-bottom: 400px;
+.back {
+  line-height: 300px !important;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
-.showcasein {
-  height: 900px;
-  background-color: #0f0f0f;
-  margin: 50px;
-  border-radius: 50px;
-}
-
-.dev {
-  font-size: 150px;
+.head {
+  color: #141414;
+  font-size: 300px;
   font-weight: 900;
-  color: #9c9c9c;
-  background-color: #00000000 !important;
-  border-color: #00000000 !important;
-  transition: letter-spacing 1s ease;
+  width: 100%;
 }
 
-.dev:hover {
-  color: #dddddd;
-  letter-spacing: 20px;
-}
-
-.showcaseout {
-  width: 50%;
-  height: 900px;
-  font-size: 100px;
-  color: #d3d3d3;
-  background-color: #2e2e2e;
-  margin: 50px;
-  border-radius: 50px;
-}
-
-.showcaseoutin {
-  width: 50%;
-  height: 900px;
-  font-size: 100px;
-  color: #d3d3d3;
-  background-color: #bebebe;
-  margin: 50px;
-  border-radius: 50px;
+.in {
+  padding-bottom: 80px;
+  padding-left: 50px;
+  padding-right: 100px;
 }
 
 @media only screen and (max-width: 768px) {
-  .hero {
-    background-color: #000000;
-    line-height: 150px;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
+  .body {
+    overflow: hidden;
   }
-  .knownTwo {
-    height: 100% !important;
-    background-color: black;
-    padding-top: 100px !important;
-    padding-bottom: 0px !important;
+  .head {
+    margin-top: 60px;
+    color: #141414;
+    font-size: 70px;
+    font-weight: 900;
+    width: 100%;
+  }
+  .back {
+    line-height: 70px !important;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .in {
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 100px;
   }
   .mail {
-    font-size: 20px;
-    color: #d3d3d3 !important;
+    font-size: 17px;
     font-weight: 900;
   }
+
   .text {
-    color: #525252;
-    font-size: 15px;
-    width: auto;
-    padding: 20px;
+    color: #b1b1b1;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
-  .icon {
-    scale: 0.8;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .icontwo {
-    scale: 0.8;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .icon:hover {
-    scale: 1;
-  }
-
-  .icontwo:hover {
-    scale: 1;
+  .butto {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff !important;
+    width: 100px;
+    height: 100px !important;
+    background-color: #000000 !important;
+    border-style: none !important;
+    border-radius: 50px !important;
   }
 }

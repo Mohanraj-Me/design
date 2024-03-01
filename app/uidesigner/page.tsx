@@ -105,31 +105,26 @@ const Developer = () => {
                       onClick={handleOpenFigma}
                     >
                       <span
-                        style={{ marginBottom: "-50px" }}
+                        style={{ marginBottom: "-40px" }}
                         className={Styles.gap}
                       >
-                        WEB
+                        DONATION
                       </span>
+
                       <span
-                        style={{ marginBottom: "-50px" }}
+                        style={{ marginBottom: "-40px" }}
                         className={Styles.gap}
                       >
-                        DESIGN
+                        FLOW
                       </span>
                       <span
-                        style={{ marginBottom: "-50px" }}
+                        style={{ marginBottom: "-40px" }}
                         className={Styles.gap}
                       >
-                        CASE
+                        UI
                       </span>
                       <span
-                        style={{ marginBottom: "-50px" }}
-                        className={Styles.gap}
-                      >
-                        STUDY
-                      </span>
-                      <span
-                        style={{ marginBottom: "-50px" }}
+                        style={{ marginBottom: "-40px" }}
                         className={Styles.gap}
                       >
                         <svg
@@ -155,28 +150,29 @@ const Developer = () => {
                     </div>
                     <div className="d-flex ">
                       <Button
+                        disabled
                         className={`${Styles.cardland} ms-5 p-5 d-flex flex-column justify-content-start align-items-start`}
                       >
                         <span
-                          style={{ marginBottom: "-50px" }}
+                          style={{ marginBottom: "-40px" }}
                           className={Styles.gap}
                         >
                           MOBILE
                         </span>
                         <span
-                          style={{ marginBottom: "-50px" }}
+                          style={{ marginBottom: "-40px" }}
                           className={Styles.gap}
                         >
                           APP
                         </span>
                         <span
-                          style={{ marginBottom: "-50px" }}
+                          style={{ marginBottom: "-40px" }}
                           className={Styles.gap}
                         >
                           CASESTUDY
                         </span>
                         <span
-                          style={{ marginBottom: "-50px" }}
+                          style={{ marginBottom: "-40px" }}
                           className={Styles.gap}
                         >
                           <svg

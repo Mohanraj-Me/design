@@ -14,11 +14,9 @@ const Designer = () => {
     "3D/3DE.jpg",
     "3D/3DF.jpg",
     "3D/3DG.jpg",
-
     "3D/3DI.jpg",
     "3D/3DH.jpg",
     "3D/3DK.jpg",
-    "3D/3DL.jpg",
   ];
 
   return (
@@ -29,9 +27,8 @@ const Designer = () => {
       >
         <div className={`${Styles.knownTwo}`}>
           <div className="d-flex flex-column">
-            <span className={`${Styles.head}`}>3D MODEL</span>
+            <span className={`${Styles.head}`}>3D MODEL DESIGN</span>
             <span className={`${Styles.head}`}>LOGO WORKS</span>
-            <span className={`${Styles.head}`}>PRODUCT DESIGN</span>
             <span className={`${Styles.head}`}>MICROS & MORE</span>
           </div>
 

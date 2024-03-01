@@ -10,7 +10,7 @@
 
 .head {
   font-size: 100px;
-  color: #d3d3d3 !important;
+  color: #ffffff !important;
   font-weight: 900;
 }
 
@@ -20,21 +20,21 @@
 
 .card {
   font-weight: 900;
-  font-size: 70px;
+  font-size: 60px;
   margin-top: 70px;
   width: 500px;
   height: 800px;
   color: black !important;
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(255, 255, 255);
   border-radius: 50px;
   /* transition: margin 1s ease; */
   border-color: rgba(240, 248, 255, 0) !important;
 }
 
 .card:hover {
-  background-color: rgb(181, 219, 77) !important;
+  background-color: rgb(255, 255, 255) !important;
   .gap {
-    margin-bottom: -45px !important;
+    margin-bottom: -35px !important;
   }
 }
 
@@ -57,7 +57,7 @@
 
 .cardland {
   font-weight: 900;
-  font-size: 70px;
+  font-size: 60px;
   /* margin-top: 70px; */
   width: 800px;
   height: 400px;
@@ -69,14 +69,14 @@
 }
 
 .cardland:hover {
-  background-color: rgb(181, 219, 77) !important;
+  background-color: rgb(255, 255, 255) !important;
   .gap {
-    margin-bottom: -45px !important;
+    margin-bottom: -35px !important;
   }
 }
 
 .buttonOne {
-  color: #b3b3b3 !important;
+  color: #ffffff !important;
   border-radius: 0px !important;
   letter-spacing: 2px;
   height: 50px;

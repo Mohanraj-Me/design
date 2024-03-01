@@ -33,7 +33,6 @@ const HomePage = () => {
       text.reveal(100000);
     });
 
-    // Check if the device is a mobile or tablet
     const isMobileOrTablet =
       /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
         navigator.userAgent
@@ -45,12 +44,12 @@ const HomePage = () => {
         setShowModal(true);
       }, 2000);
       // Disable all clickable links on the homepage
-      const links = document.querySelectorAll("a");
-      links.forEach((link) => {
-        link.addEventListener("click", (e) => {
-          e.preventDefault();
-        });
-      });
+      //   const links = document.querySelectorAll("a");
+      //   links.forEach((link) => {
+      //     link.addEventListener("click", (e) => {
+      //       e.preventDefault();
+      //     });
+      //   });
     }
   }, []);
 
@@ -72,7 +71,7 @@ const HomePage = () => {
       <div
         className={`${Styles.backtest}  d-flex align-items-center justify-content-center`}
       >
-        <span className={`${Styles.showcaseee}`}>BUCKLE UP</span>
+        <span className={`${Styles.showcaseee}`}>I&apos;M A</span>
       </div>
       <div>
         <div
@@ -125,14 +124,14 @@ const HomePage = () => {
               className={`${Styles.showcaseout} d-flex align-items-center justify-content-center`}
             >
               <Link href="/uidesigner">
-                <Button className={Styles.dev}>UI UX</Button>
+                <Button className={Styles.devui}>UI UX</Button>
               </Link>
             </div>
             <div
               className={`${Styles.showcaseoutin} d-flex align-items-center justify-content-center`}
             >
               <Link href="/designer">
-                <Button className={Styles.dev}>&MORE</Button>
+                <Button className={Styles.devui}>&MORE</Button>
               </Link>
             </div>
           </div>
