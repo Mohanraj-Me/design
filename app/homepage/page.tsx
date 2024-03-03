@@ -62,9 +62,28 @@ const HomePage = () => {
     setShowModal(false);
   };
 
+  // const handleDownload = () => {
+  //   const resumeUrl = "/other/Mohanraj_CV.pdf";
+  //   window.open(resumeUrl, "_blank");
+  // };
+
   const handleDownload = () => {
     const resumeUrl = "/other/Mohanraj_CV.pdf";
-    window.open(resumeUrl, "_blank");
+
+    // Create a hidden anchor element
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.target = "_blank";
+    link.download = "Mohanraj_CV.pdf"; // Specify the filename here
+
+    // Append the anchor element to the body
+    document.body.appendChild(link);
+
+    // Programmatically trigger a click on the anchor element
+    link.click();
+
+    // Remove the anchor element from the body
+    document.body.removeChild(link);
   };
 
   const handleButtonClick = () => {
@@ -88,7 +107,7 @@ const HomePage = () => {
           <div className="d-flex d-inline-block">
             <Button
               variant="outline-light"
-              onClick={handleShow}
+              onClick={handleDownload}
               className={`${Styles.button}`}
             >
               DOWNLOAD CV
