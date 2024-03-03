@@ -42,12 +42,13 @@
 @media only screen and (max-width: 768px) {
   .head {
     font-size: 40px;
-    color: #d3d3d3 !important;
+    color: #ffffff !important;
     font-weight: 900;
+    width: 350px;
   }
   .buttonOne {
     font-size: 10px !important;
-    color: #b3b3b3 !important;
+    color: #ffffff !important;
     border-radius: 0px !important;
     letter-spacing: 2px;
     height: 50px;
@@ -57,7 +58,7 @@
   }
   .knownTwo {
     background-color: black;
-    padding-top: 200px !important;
+    padding-top: 100px !important;
     /* padding-bottom: 200px !important; */
     width: auto;
   }
@@ -81,8 +82,7 @@
   .backer {
     background-color: #000000;
   }
-  .image img {
-    width: auto; /* Adjust the width as needed */
-    height: 300px !important; /* Maintain aspect ratio */
+  .image {
+    width: auto;
   }
 }

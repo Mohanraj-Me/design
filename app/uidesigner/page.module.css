@@ -1,5 +1,7 @@
 .backer {
   background-color: #000000;
+  /* overflow: hidden; */
+  width: auto;
 }
 
 .knownTwo {
@@ -14,11 +16,16 @@
   font-weight: 900;
 }
 
-.projecthead {
+.projectheaddiv {
   align-items: end;
+  display: flex !important;
+  margin: 20px;
 }
 
 .card {
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding: 40px;
   font-weight: 900;
   font-size: 60px;
   margin-top: 70px;
@@ -27,7 +34,7 @@
   color: black !important;
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
-  /* transition: margin 1s ease; */
+  transition: letter-spacing 1s ease;
   border-color: rgba(240, 248, 255, 0) !important;
 }
 
@@ -39,6 +46,9 @@
 }
 
 .cardland1 {
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding: 40px;
   font-weight: 900;
   font-size: 70px;
   margin-top: 70px;
@@ -52,10 +62,15 @@
 }
 
 .cardland1:hover {
-  letter-spacing: 5px;
+  .gap {
+    margin-bottom: -45px !important;
+  }
 }
 
 .cardland {
+  margin-right: 0px;
+  margin-bottom: 50px;
+  padding: 40px;
   font-weight: 900;
   font-size: 60px;
   /* margin-top: 70px; */
@@ -70,6 +85,7 @@
 
 .cardland:hover {
   background-color: rgb(255, 255, 255) !important;
+
   .gap {
     margin-bottom: -35px !important;
   }
@@ -82,7 +98,12 @@
   height: 50px;
   padding-right: 0;
   padding-left: 0;
+
   transition: padding-right 0.5s, padding-left 0.5s;
+}
+.con {
+  padding-left: 0px !important;
+  padding-right: 10px !important;
 }
 
 .buttonOne:hover {
@@ -92,25 +113,116 @@
   padding-right: 200px !important;
   padding-left: 200px !important;
 }
-
 .showcase {
+  background-color: #000000;
   font-size: 300px;
   font-weight: 900;
   color: rgb(15, 15, 15);
 }
 
-.modal {
-  max-width: 1500px !important;
-}
+@media only screen and (max-width: 768px) {
+  .head {
+    font-size: 40px;
+    color: #ffffff !important;
+    font-weight: 900;
+  }
+  .buttonOne {
+    font-size: 10px !important;
+    color: #ffffff !important;
+    border-radius: 0px !important;
+    letter-spacing: 2px;
+    height: 50px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    transition: padding-right 0.5s, padding-left 0.5s;
+  }
+  .knownTwo {
+    background-color: black;
+    padding-top: 100px !important;
+    padding-bottom: 0px !important;
+    width: auto;
+  }
+  .con {
+    /* display: flex; */
+    width: auto;
+    padding-left: 0px !important;
+    padding-right: 10px !important;
+  }
+  .showcase {
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(15, 15, 15);
+  }
+  .buttonOne:hover {
+    /* border-color: #9c9c9c; */
+    background-color: black !important;
+    cursor: default !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  .backer {
+    background-color: #000000;
+  }
+  /* .align {
+    align-items: center;
+    justify-content: center;
+  } */
+  .image img {
+    width: auto; /* Adjust the width as needed */
+    height: 300px !important; /* Maintain aspect ratio */
+  }
+  .projectheaddiv {
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+  }
 
-.closebutton {
-  height: 50px;
-  background-color: #000000 !important;
-  color: aliceblue;
-  border-color: #00000000 !important;
-}
+  .card {
+    margin-right: 0px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 70px;
+    line-height: 90px;
+    width: 250px;
+    height: 400px;
+    color: black !important;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30px;
+    transition: letter-spacing 1s ease;
+    border-color: rgba(240, 248, 255, 0) !important;
+  }
 
-.figma {
-  font-size: 50px;
-  font-weight: 900;
+  .card:hover {
+    background-color: rgb(181, 219, 77);
+    .gap {
+      margin-bottom: -45px !important;
+    }
+  }
+
+  .cardland {
+    margin-right: 0px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 70px;
+    line-height: 90px;
+    width: 250px;
+    height: 400px;
+    color: black !important;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30px;
+    transition: letter-spacing 1s ease;
+    border-color: rgba(240, 248, 255, 0) !important;
+  }
+
+  .cardland:hover {
+    background-color: rgb(181, 219, 77);
+
+    .gap {
+      margin-bottom: -45px !important;
+    }
+  }
 }

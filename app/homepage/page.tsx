@@ -71,7 +71,7 @@ const HomePage = () => {
       <div
         className={`${Styles.backtest}  d-flex align-items-center justify-content-center`}
       >
-        <span className={`${Styles.showcaseee}`}>I&apos;M A</span>
+        <span className={`${Styles.showcaseee}`}>I&apos;M IN</span>
       </div>
       <div>
         <div
@@ -186,11 +186,16 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <Modal show={showModal} onHide={handleCloseModal}>
+      <Modal
+        show={showModal}
+        backdrop="static"
+        keyboard={false}
+        onHide={handleCloseModal}
+      >
         <Modal.Body>
-          <div className="d-flex flex-column">
-            Mobile experience in progress. Switch to desktop for best view.
-            <Button variant="dark" className="mt-4" onClick={handleCloseModal}>
+          <div className="d-flex flex-column" style={{ fontSize: "20px" }}>
+            Switch to desktop for best view.
+            <Button variant="dark" className="mt-3" onClick={handleCloseModal}>
               Okay, got it
             </Button>
           </div>

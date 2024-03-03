@@ -1,5 +1,7 @@
 .backer {
   background-color: #000000;
+  /* overflow: hidden; */
+  width: auto;
 }
 
 .knownTwo {
@@ -17,9 +19,12 @@
 .projectheaddiv {
   align-items: end;
   display: flex !important;
+  margin: 20px;
 }
 
 .card {
+  margin-right: 50px;
+  margin-bottom: 50px;
   padding: 40px;
   font-weight: 900;
   font-size: 60px;
@@ -41,6 +46,8 @@
 }
 
 .cardland1 {
+  margin-right: 50px;
+  margin-bottom: 50px;
   padding: 40px;
   font-weight: 900;
   font-size: 70px;
@@ -61,6 +68,8 @@
 }
 
 .cardland {
+  margin-right: 0px;
+  margin-bottom: 50px;
   padding: 40px;
   font-weight: 900;
   font-size: 60px;
@@ -123,8 +132,8 @@
   }
   .knownTwo {
     background-color: black;
-    padding-top: 200px !important;
-    /* padding-bottom: 200px !important; */
+    padding-top: 100px !important;
+    padding-bottom: 0px !important;
     width: auto;
   }
   .con {
@@ -148,27 +157,28 @@
   .backer {
     background-color: #000000;
   }
-  .align {
+  /* .align {
     align-items: center;
     justify-content: center;
-  }
+  } */
   .image img {
     width: auto; /* Adjust the width as needed */
     height: 300px !important; /* Maintain aspect ratio */
   }
-
   .projectheaddiv {
-    display: flex;
-    flex-direction: column; /* Ensures flex items stack horizontally */
-    justify-content: flex-start; /* Aligns items to the start of the container */
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
   }
 
   .card {
+    margin-right: 0px;
+    margin-bottom: 50px;
     padding: 20px;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 70px;
-    line-height: 100px;
+    line-height: 90px;
     width: 250px;
     height: 400px;
     color: black !important;
@@ -185,33 +195,14 @@
     }
   }
 
-  .cardland1 {
-    padding: 20px;
-    font-weight: 900;
-    font-size: 35px;
-    margin-top: 70px;
-    line-height: 100px;
-    width: 250px;
-    height: 400px;
-    color: black !important;
-    background-color: rgb(231, 231, 231);
-    border-radius: 30px;
-    transition: letter-spacing 1s ease;
-    border-color: rgba(240, 248, 255, 0) !important;
-  }
-
-  .cardland1:hover {
-    .gap {
-      margin-bottom: -45px !important;
-    }
-  }
-
   .cardland {
+    margin-right: 0px;
+    margin-bottom: 50px;
     padding: 20px;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 70px;
-    line-height: 100px;
+    line-height: 90px;
     width: 250px;
     height: 400px;
     color: black !important;

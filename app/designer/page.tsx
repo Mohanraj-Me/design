@@ -27,7 +27,7 @@ const Designer = () => {
       >
         <div className={`${Styles.knownTwo}`}>
           <div className="d-flex flex-column">
-            <span className={`${Styles.head}`}>3D MODEL DESIGN</span>
+            <span className={`${Styles.head}`}>3D DESIGN</span>
             <span className={`${Styles.head}`}>LOGO WORKS</span>
             <span className={`${Styles.head}`}>MICROS & MORE</span>
           </div>

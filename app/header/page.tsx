@@ -29,7 +29,7 @@ const Header = () => {
           onClick={handleShow}
           className={`${Styles.button} px-3`}
         >
-          Showcase
+          Menu
         </Button>
 
         <Offcanvas show={show} onHide={handleClose} placement={"bottom"}>
