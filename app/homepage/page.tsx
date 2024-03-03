@@ -8,6 +8,11 @@ import HoverCarousel from "hover-carousel";
 import Image from "next/image";
 
 const HomePage = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   const images = [
     "UX-Course-1.jpg",
     "UX-Course-2.jpg",
@@ -71,7 +76,7 @@ const HomePage = () => {
       <div
         className={`${Styles.backtest}  d-flex align-items-center justify-content-center`}
       >
-        <span className={`${Styles.showcaseee}`}>I&apos;M IN</span>
+        <span className={`${Styles.showcaseee}`}>I&apos;M</span>
       </div>
       <div>
         <div
@@ -83,7 +88,7 @@ const HomePage = () => {
           <div className="d-flex d-inline-block">
             <Button
               variant="outline-light"
-              onClick={handleDownload}
+              onClick={handleShow}
               className={`${Styles.button}`}
             >
               DOWNLOAD CV
@@ -199,6 +204,26 @@ const HomePage = () => {
               Okay, got it
             </Button>
           </div>
+        </Modal.Body>
+      </Modal>
+      <Modal
+        dialogClassName={Styles.showModal}
+        show={show}
+        onHide={handleClose}
+        centered
+      >
+        <Modal.Body>
+          <iframe
+            src="/other/Mohanraj_CV.pdf"
+            style={{ width: "100%", height: "80vh" }}
+          />
+          <Button
+            variant="dark"
+            className="mt-3 float-end"
+            onClick={handleClose}
+          >
+            Close
+          </Button>
         </Modal.Body>
       </Modal>
     </div>

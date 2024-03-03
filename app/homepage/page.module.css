@@ -299,6 +299,9 @@
   padding-left: 100px;
   padding-right: 100px;
 }
+.showModal {
+  max-width: 100vh !important;
+}
 
 @media (max-width: 768px) {
   .hero {
@@ -452,6 +455,9 @@
     width: 100%;
     background-color: #ffffff;
   }
+}
+.showModal {
+  max-width: 80vh !important;
 }
 
 @media (max-width: 1024px) {
