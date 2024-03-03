@@ -26,7 +26,7 @@ const Designer = () => {
         className={`${Styles.backer} d-flex align-items-center justify-content-between`}
       >
         <div className={`${Styles.knownTwo}`}>
-          <div className="d-flex flex-column">
+          <div className={`${Styles.padleft} d-flex flex-column`}>
             <span className={`${Styles.head}`}>3D DESIGN</span>
             <span className={`${Styles.head}`}>LOGO WORKS</span>
             <span className={`${Styles.head}`}>MICROS & MORE</span>

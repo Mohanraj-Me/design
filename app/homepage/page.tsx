@@ -70,20 +70,31 @@ const HomePage = () => {
   const handleDownload = () => {
     const resumeUrl = "/other/Mohanraj_CV.pdf";
 
-    // Create a hidden anchor element
-    const link = document.createElement("a");
-    link.href = resumeUrl;
-    link.target = "_blank";
-    link.download = "Mohanraj_CV.pdf"; // Specify the filename here
+    // Check if it's a mobile device
+    const isMobileDevice =
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      );
 
-    // Append the anchor element to the body
-    document.body.appendChild(link);
+    if (isMobileDevice) {
+      // Open the file in a new tab or window for mobile devices
+      window.open(resumeUrl, "_blank");
+    } else {
+      // For other devices, use the download attribute
+      const link = document.createElement("a");
+      link.href = resumeUrl;
+      link.target = "_blank";
+      link.download = "Mohanraj_CV.pdf"; // Specify the filename here
 
-    // Programmatically trigger a click on the anchor element
-    link.click();
+      // Append the anchor element to the body
+      document.body.appendChild(link);
 
-    // Remove the anchor element from the body
-    document.body.removeChild(link);
+      // Programmatically trigger a click on the anchor element
+      link.click();
+
+      // Remove the anchor element from the body
+      document.body.removeChild(link);
+    }
   };
 
   const handleButtonClick = () => {

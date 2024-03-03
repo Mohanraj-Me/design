@@ -173,12 +173,12 @@
 
   .card {
     margin-right: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     padding: 20px;
     font-weight: 900;
     font-size: 30px;
     margin-top: 70px;
-    line-height: 90px;
+    line-height: 90px !important;
     width: 250px;
     height: 400px;
     color: black !important;
@@ -197,7 +197,7 @@
 
   .cardland {
     margin-right: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     padding: 20px;
     font-weight: 900;
     font-size: 30px;
