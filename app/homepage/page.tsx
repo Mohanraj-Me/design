@@ -44,17 +44,9 @@ const HomePage = () => {
       );
 
     if (isMobileOrTablet) {
-      // Delay showing the modal by 2 seconds
       setTimeout(() => {
         setShowModal(true);
       }, 2000);
-      // Disable all clickable links on the homepage
-      //   const links = document.querySelectorAll("a");
-      //   links.forEach((link) => {
-      //     link.addEventListener("click", (e) => {
-      //       e.preventDefault();
-      //     });
-      //   });
     }
   }, []);
 
@@ -62,39 +54,9 @@ const HomePage = () => {
     setShowModal(false);
   };
 
-  // const handleDownload = () => {
-  //   const resumeUrl = "/other/Mohanraj_CV.pdf";
-  //   window.open(resumeUrl, "_blank");
-  // };
-
   const handleDownload = () => {
     const resumeUrl = "/other/Mohanraj_CV.pdf";
-
-    // Check if it's a mobile device
-    const isMobileDevice =
-      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent
-      );
-
-    if (isMobileDevice) {
-      // Open the file in a new tab or window for mobile devices
-      window.open(resumeUrl, "_blank");
-    } else {
-      // For other devices, use the download attribute
-      const link = document.createElement("a");
-      link.href = resumeUrl;
-      link.target = "_blank";
-      link.download = "Mohanraj_CV.pdf"; // Specify the filename here
-
-      // Append the anchor element to the body
-      document.body.appendChild(link);
-
-      // Programmatically trigger a click on the anchor element
-      link.click();
-
-      // Remove the anchor element from the body
-      document.body.removeChild(link);
-    }
+    window.open(resumeUrl, "_blank");
   };
 
   const handleButtonClick = () => {
@@ -140,11 +102,6 @@ const HomePage = () => {
         </div>
 
         <div className={`${Styles.slideover}`}></div>
-        {/* <span
-          className={`${Styles.showcasee} d-flex align-item-center justify-content-center`}
-        >
-          READY FOR DIVE
-        </span> */}
 
         <div className={`${Styles.showcase} d-flex flex-column`}>
           <div
@@ -170,7 +127,6 @@ const HomePage = () => {
               </Link>
             </div>
           </div>
-          {/* <span>my works in</span> */}
         </div>
         {/* <div className="bg-dark ">
           <span
@@ -188,7 +144,6 @@ const HomePage = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-start">
-            {/* <div className={Styles.imagepop} /> */}
             <div className={`${Styles.in} d-flex flex-column `}>
               <span className={Styles.intotext}>
                 &quot;Step into the past! Explore my early design crafted on
