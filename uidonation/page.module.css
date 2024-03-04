@@ -1,0 +1,50 @@
+.title {
+  font-size: 120px;
+  color: #000000;
+  font-weight: 900;
+}
+
+.freeze {
+  top: 10px; /* Adjust top position as needed */
+  /* height: 100vh; */
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.buttonback {
+  font-size: 25px;
+  border-radius: 50px;
+}
+
+.work {
+  background-color: #00000000;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+    width: 500px !important;
+    color: #000000;
+    font-weight: 900;
+  }
+
+  .freeze {
+    top: 50px; /* Adjust top position as needed */
+
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .buttonback {
+    font-size: 15px;
+    border-radius: 50px;
+  }
+
+  .work {
+    background-color: #00000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
