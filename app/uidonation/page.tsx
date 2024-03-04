@@ -78,12 +78,13 @@ const Uidonation = () => {
             <span className="ms-2">Open in Figma </span>
           </Button>
         </div>
-        <div className={`${Styles.work} d-flex justify-content-center`}>
+        <div className={`${Styles.work} d-flex justify-content-center `}>
           <Image
-            src="./other/UI1.png"
+            src="/other/UI1.png"
             alt="Description of your image"
             width={1334}
             height={4166}
+            layout="responsive"
           />
         </div>
         <div className="d-flex justify-content-center align-items-center mb-5">

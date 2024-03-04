@@ -20,6 +20,8 @@
   background-color: #00000000;
   margin-top: 80px;
   margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 @media (max-width: 768px) {
@@ -46,5 +48,7 @@
     background-color: #00000000;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
