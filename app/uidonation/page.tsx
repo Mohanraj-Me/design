@@ -81,13 +81,7 @@ const Uidonation = () => {
         <div className={`${Styles.work} d-flex justify-content-center`}>
           <Image
             src="./other/UI1.png"
-            alt="Description of your image"
-            width={1334}
-            height={4166}
-          />
-          <Image
-            src="https://ibb.co/Kzg15HT"
-            alt="Description of your image"
+            alt="ui design project"
             width={1334}
             height={4166}
           />

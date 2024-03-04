@@ -55,7 +55,7 @@ const HomePage = () => {
   };
 
   const handleDownload = () => {
-    const resumeUrl = "/other/Mohanraj_CV.pdf";
+    const resumeUrl = "./other/Mohanraj_CV.pdf";
     window.open(resumeUrl, "_blank");
   };
 
