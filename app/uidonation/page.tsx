@@ -29,7 +29,7 @@ const Uidonation = () => {
 
   return (
     <div className="">
-      <div className={`${Styles.freeze} text-center`}>
+      <div className="text-center my-4">
         <span className={`${Styles.title}`}>DONATION FLOW UI</span>
       </div>
 
@@ -81,7 +81,7 @@ const Uidonation = () => {
         <div className={`${Styles.work} d-flex justify-content-center `}>
           <Image
             src="./other/UI1.png"
-            alt="Description of your image"
+            alt="Donation ui design"
             width={1334}
             height={4166}
             layout="responsive"
