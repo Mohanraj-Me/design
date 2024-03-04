@@ -80,7 +80,7 @@ const Uidonation = () => {
         </div>
         <div className={`${Styles.work} d-flex justify-content-center `}>
           <Image
-            src="/other/UI1.png"
+            src="./other/UI1.png"
             alt="Description of your image"
             width={1334}
             height={4166}
