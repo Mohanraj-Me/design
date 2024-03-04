@@ -86,7 +86,7 @@ const uidesigner = () => {
             </div>
             <div style={{ maxWidth: "100%", overflowX: "auto" }}>
               <div className={`${Styles.projectheaddiv} d-flex flex-wrap`}>
-                <Link href="/uiworks/uidonation" className="nav-link">
+                <Link href="/uidonation" className="nav-link">
                   <Button
                     className={`${Styles.card}  d-flex flex-column justify-content-start align-items-start`}
                   >

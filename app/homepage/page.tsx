@@ -123,7 +123,12 @@ const HomePage = () => {
               className={`${Styles.showcaseoutin} d-flex align-items-center justify-content-center`}
             >
               <Link href="/designer">
-                <Button className={Styles.devui}>&MORE</Button>
+                <Button
+                  className={Styles.devui}
+                  style={{ textDecoration: "underline" }}
+                >
+                  &MORE
+                </Button>
               </Link>
             </div>
           </div>
