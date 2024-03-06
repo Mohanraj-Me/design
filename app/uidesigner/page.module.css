@@ -1,48 +1,115 @@
 .backer {
-  background-color: #000000;
-  /* overflow: hidden; */
-  width: auto;
+  background-color: #ffffff28;
+  backdrop-filter: blur(10px);
+}
+
+.backtest {
+  z-index: -100;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.showcaseee {
+  font-size: 300px;
+  font-weight: 900;
+  color: rgb(230, 230, 230) !important;
+}
+
+.container {
+  justify-content: space-around;
+  padding-top: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 300px;
+  padding-right: 300px;
+
+  background-color: transparent;
+}
+
+.cardshow {
+  margin-bottom: 120px;
+  padding: 10px;
+  width: 800px;
+  height: 900px;
+  background-color: rgba(255, 255, 255, 0.336);
+  border-radius: 30px;
+  border: 4px solid #ffffff;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.137);
+}
+
+.cardimage {
+  border-radius: 20px;
+}
+
+.cardtext {
+  margin-left: 10px;
+  margin-top: 20px !important;
+
+  font-weight: 600;
+  color: #292929;
+  font-size: 20px;
+}
+
+.buttonback {
+  font-size: 25px;
+  border-radius: 50px;
+  margin-bottom: 120px;
 }
 
 .knownTwo {
-  background-color: black;
-  padding-top: 200px !important;
-  /* padding-bottom: 200px !important; */
+  background-color: #d6cc9900;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.icon {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 2px;
+  box-shadow: 0 0 20px rgba(55, 255, 37, 0.541);
 }
 
 .head {
   font-size: 100px;
-  color: #ffffff !important;
+  color: rgb(184, 250, 109) !important;
   font-weight: 900;
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .projectheaddiv {
-  align-items: end;
-  display: flex !important;
-  margin: 20px;
+  /* display: flex !important; */
+  /* margin: 10px; */
+  justify-content: space-around;
+  /* align-items: center; */
+  width: 100vh;
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
-  margin-right: 50px;
-  margin-bottom: 50px;
+  /* margin-right: 50px; */
+  /* margin-bottom: 50px; */
   padding: 40px;
   font-weight: 900;
   font-size: 60px;
-  margin-top: 70px;
   width: 500px;
   height: 800px;
-  color: black !important;
-  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34) !important;
+  background-color: rgb(184, 250, 109) !important;
   border-radius: 50px;
   transition: letter-spacing 1s ease;
   border-color: rgba(240, 248, 255, 0) !important;
 }
 
 .card:hover {
-  background-color: rgb(255, 255, 255) !important;
-  .gap {
-    margin-bottom: -35px !important;
-  }
+  background-color: rgb(184, 250, 109);
 }
 
 .cardland1 {
