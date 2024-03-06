@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
+import Badge from "react-bootstrap/Badge";
 
 const uidesigner = () => {
   const handleScrollToTop = () => {
@@ -26,7 +27,7 @@ const uidesigner = () => {
         className={`${Styles.backer} d-flex align-items-center justify-content-center p-5 w-100`}
       >
         <div className={`${Styles.knownTwo} text-center`}>
-          <span className={`${Styles.head} `}>UI UX DESIGN</span>
+          <span className={`${Styles.head} `}>DESIGNER</span>
           <div className="d-flex justify-content-between m-5">
             <Image
               src="./figma.png"
@@ -94,11 +95,51 @@ const uidesigner = () => {
               // layout="responsive"
               className={Styles.icon}
             />
+            <Image
+              src="./blend.png"
+              alt="Donation UI design"
+              width={70}
+              height={70}
+              // layout="responsive"
+              className={Styles.icon}
+            />
+            <Image
+              src="./catia.png"
+              alt="Donation UI design"
+              width={70}
+              height={70}
+              // layout="responsive"
+              className={Styles.icon}
+            />
+            <Image
+              src="./solid.jpg"
+              alt="Donation UI design"
+              width={70}
+              height={70}
+              // layout="responsive"
+              className={Styles.icon}
+            />
+            <Image
+              src="./autocad.jpg"
+              alt="Donation UI design"
+              width={70}
+              height={70}
+              // layout="responsive"
+              className={Styles.icon}
+            />
+            <Image
+              src="./builder.png"
+              alt="Donation UI design"
+              width={70}
+              height={70}
+              // layout="responsive"
+              className={Styles.icon}
+            />
           </div>
 
           <div>
             <div className={`${Styles.projectheaddiv} d-flex flex-wrap`}>
-              <Link href="./uidonation" className="nav-link">
+              <Link href="./caseone" className="nav-link">
                 <Button
                   className={`${Styles.card}  d-flex flex-column justify-content-start align-items-start`}
                 >
@@ -180,7 +221,12 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>Mobile launcher - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - Mobile launcher design
+          </div>
         </div>
         <div className={Styles.cardshow}>
           <Image
@@ -191,7 +237,12 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>Coffee shop - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - Coffee store App design
+          </div>
         </div>
         <div className={Styles.cardshow}>
           <Image
@@ -202,7 +253,12 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>To Do - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - TO DO Application
+          </div>
         </div>
         <div className={Styles.cardshow}>
           <Image
@@ -213,7 +269,12 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>Calcus - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - Calcus App design
+          </div>
         </div>
         <div className={Styles.cardshow}>
           <Image
@@ -224,7 +285,12 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>Smart watch - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - Smart watch design
+          </div>
         </div>
         <div className={Styles.cardshow}>
           <Image
@@ -235,7 +301,12 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>Comic app - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - Comic App design
+          </div>
         </div>
         <div className={Styles.cardshow}>
           <Image
@@ -246,7 +317,12 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>Music player - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - Music App design
+          </div>
         </div>
         <div className={Styles.cardshow}>
           <Image
@@ -257,7 +333,12 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>Travel app - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - Travel App design
+          </div>
         </div>
         <div className={Styles.cardshow}>
           <Image
@@ -268,7 +349,12 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>Team build - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - Team Build App design
+          </div>
         </div>
         <div className={Styles.cardshow}>
           <Image
@@ -279,7 +365,157 @@ const uidesigner = () => {
             layout="responsive"
             className={Styles.cardimage}
           />
-          <div className={Styles.cardtext}>File manager - UI Design.</div>
+          <div className={Styles.cardtext}>
+            <Badge pill bg="warning">
+              User Interface
+            </Badge>{" "}
+            - File Manager App design
+          </div>
+        </div>
+        <div className={Styles.cardshow}>
+          <Image
+            src="./3D/3DA.png"
+            alt="Donation UI design"
+            width={1334}
+            height={4166}
+            layout="responsive"
+            className={Styles.cardimage}
+          />
+          <div className={Styles.cardtext}>
+            <Badge pill bg="primary">
+              3D Modeling
+            </Badge>{" "}
+            - Robos 3D design
+          </div>
+        </div>
+        <div className={Styles.cardshow}>
+          <Image
+            src="./3D/3DB.png"
+            alt="Donation UI design"
+            width={1334}
+            height={4166}
+            layout="responsive"
+            className={Styles.cardimage}
+          />
+          <div className={Styles.cardtext}>
+            <Badge pill bg="primary">
+              3D Modeling
+            </Badge>{" "}
+            - Mini Room 3D design
+          </div>
+        </div>
+        <div className={Styles.cardshow}>
+          <Image
+            src="./3D/3DD.png"
+            alt="Donation UI design"
+            width={1334}
+            height={4166}
+            layout="responsive"
+            className={Styles.cardimage}
+          />
+          <div className={Styles.cardtext}>
+            <Badge pill bg="primary">
+              3D Modeling
+            </Badge>{" "}
+            - Secret Room 3D design
+          </div>
+        </div>
+        <div className={Styles.cardshow}>
+          <Image
+            src="./3D/3DC.png"
+            alt="Donation UI design"
+            width={1334}
+            height={4166}
+            layout="responsive"
+            className={Styles.cardimage}
+          />
+          <div className={Styles.cardtext}>
+            <Badge pill bg="primary">
+              3D Modeling
+            </Badge>{" "}
+            - Keyboard 3D design
+          </div>
+        </div>
+        <div className={Styles.cardshow}>
+          <Image
+            src="./3D/3DE.jpg"
+            alt="Donation UI design"
+            width={1334}
+            height={4166}
+            layout="responsive"
+            className={Styles.cardimage}
+          />
+          <div className={Styles.cardtext}>
+            {" "}
+            <Badge pill bg="dark">
+              Logo Design
+            </Badge>
+          </div>
+        </div>
+        <div className={Styles.cardshow}>
+          <Image
+            src="./3D/3DI.jpg"
+            alt="Donation UI design"
+            width={1334}
+            height={4166}
+            layout="responsive"
+            className={Styles.cardimage}
+          />
+          <div className={Styles.cardtext}>
+            <Badge pill bg="dark">
+              Logo Design
+            </Badge>
+          </div>
+        </div>
+        <div className={Styles.cardshow}>
+          <Image
+            src="./3D/3DF.jpg"
+            alt="Donation UI design"
+            width={1334}
+            height={4166}
+            layout="responsive"
+            className={Styles.cardimage}
+          />
+          <div className={Styles.cardtext}>
+            <Badge pill bg="danger">
+              Microart
+            </Badge>{" "}
+            - Pencil Curving
+          </div>
+        </div>
+        <div className={Styles.cardshow}>
+          <Image
+            src="./3D/3DG.jpg"
+            alt="Donation UI design"
+            width={1334}
+            height={4166}
+            layout="responsive"
+            className={Styles.cardimage}
+          />
+          <div className={Styles.cardtext}>
+            {" "}
+            <Badge pill bg="info">
+              HandCraft
+            </Badge>{" "}
+            - Pendents
+          </div>
+        </div>
+
+        <div className={Styles.cardshow}>
+          <Image
+            src="./3D/3DK.jpg"
+            alt="Donation UI design"
+            width={1334}
+            height={4166}
+            layout="responsive"
+            className={Styles.cardimage}
+          />
+          <div className={Styles.cardtext}>
+            {" "}
+            <Badge pill bg="success">
+              Graphic Design
+            </Badge>
+          </div>
         </div>
       </div>
       <div className="d-flex justify-content-center align-items-center mb-5">

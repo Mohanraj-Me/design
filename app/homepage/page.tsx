@@ -68,7 +68,7 @@ const HomePage = () => {
       <div
         className={`${Styles.backtest}  d-flex align-items-center justify-content-center`}
       >
-        <span className={`${Styles.showcaseee}`}>I&apos;M</span>
+        <span className={`${Styles.showcaseee}`}>I&apos;M A</span>
       </div>
       <div>
         <div
@@ -111,26 +111,13 @@ const HomePage = () => {
               <Button className={Styles.dev}>DEVELOPER</Button>
             </Link>
           </div>
-          <div className={`${Styles.twoCon}`}>
-            <div
-              className={`${Styles.showcaseout} d-flex align-items-center justify-content-center`}
-            >
-              <Link href="/uidesigner">
-                <Button className={Styles.devui}>UI UX</Button>
-              </Link>
-            </div>
-            <div
-              className={`${Styles.showcaseoutin} d-flex align-items-center justify-content-center`}
-            >
-              <Link href="/designer">
-                <Button
-                  className={Styles.devui}
-                  style={{ textDecoration: "underline" }}
-                >
-                  &MORE
-                </Button>
-              </Link>
-            </div>
+
+          <div
+            className={`${Styles.showcaseout} d-flex align-items-center justify-content-center`}
+          >
+            <Link href="/uidesigner">
+              <Button className={Styles.devui}>DESIGNER</Button>
+            </Link>
           </div>
         </div>
         {/* <div className="bg-dark ">

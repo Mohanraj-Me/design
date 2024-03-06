@@ -19,7 +19,7 @@ const developer = () => {
           <span className={`${Styles.head}`}>DEVELOPER</span>
           <div className="d-flex justify-content-center my-5 ">
             <Image
-              src="/html.png"
+              src="./html.png"
               alt="Donation UI design"
               width={70}
               height={70}
@@ -30,7 +30,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/css.png"
+              src="./css.png"
               alt="Donation UI design"
               width={70}
               height={70}
@@ -41,7 +41,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/scss.png"
+              src="./scss.png"
               alt="Donation UI design"
               width={100}
               height={70}
@@ -52,7 +52,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/boot.png"
+              src="./boot.png"
               alt="Donation UI design"
               width={80}
               height={70}
@@ -63,7 +63,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/tailwind.png"
+              src="./tailwind.png"
               alt="Donation UI design"
               width={100}
               height={70}
@@ -74,7 +74,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/js.png"
+              src="./js.png"
               alt="Donation UI design"
               width={70}
               height={70}
@@ -85,7 +85,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/ts.png"
+              src="./ts.png"
               alt="Donation UI design"
               width={70}
               height={70}
@@ -96,7 +96,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/react.png"
+              src="./react.png"
               alt="Donation UI design"
               width={80}
               height={70}
@@ -107,7 +107,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/next.svg"
+              src="./next.svg"
               alt="Donation UI design"
               width={70}
               height={70}
@@ -120,7 +120,7 @@ const developer = () => {
           </div>
           <div className="d-flex justify-content-center my-5">
             <Image
-              src="/redux.png"
+              src="./redux.png"
               alt="Donation UI design"
               width={70}
               height={70}
@@ -131,7 +131,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/Git.png"
+              src="./Git.png"
               alt="Donation UI design"
               width={70}
               height={70}
@@ -142,7 +142,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/github.png"
+              src="./github.png"
               alt="Donation UI design"
               width={70}
               height={70}
@@ -153,7 +153,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/konva.png"
+              src="./konva.png"
               alt="Donation UI design"
               width={70}
               height={70}
@@ -164,7 +164,7 @@ const developer = () => {
               }}
             />
             <Image
-              src="/post.png"
+              src="./post.png"
               alt="Donation UI design"
               width={70}
               height={70}

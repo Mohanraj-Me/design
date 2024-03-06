@@ -38,16 +38,12 @@ const Header = () => {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <div className="d-flex align-items-center justify-content-center flex-column">
-              <Link href="/developer" className="nav-link">
+              <Link href="/developer" className="nav-link my-4">
                 <span className={`${Styles.contact}`}>DEVELOPER</span>
               </Link>
 
               <Link href="/uidesigner" className="nav-link">
-                <span className={`${Styles.contact}`}>UI UX</span>
-              </Link>
-
-              <Link href="/designer" className="nav-link">
-                <span className={`${Styles.contact}`}>& MORE</span>
+                <span className={`${Styles.contact}`}>DESIGNER</span>
               </Link>
             </div>
           </Offcanvas.Body>
