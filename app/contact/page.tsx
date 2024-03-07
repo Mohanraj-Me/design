@@ -61,7 +61,6 @@ const Designer = () => {
 
             <div className="d-flex">
               <Button
-                variant="dark"
                 className={`${Styles.butto} me-3 mt-4 `}
                 onClick={handleLinkedClick}
               >
