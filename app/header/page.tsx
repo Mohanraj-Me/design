@@ -1,8 +1,5 @@
 "use client";
 
-// Header.js
-
-// Import necessary modules
 import Styles from "./page.module.css";
 import { useState } from "react";
 import Link from "next/link";
@@ -10,11 +7,6 @@ import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
 const Header = () => {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   return (
     <div
       className={`${Styles.header} d-flex align-items-center justify-content-between p-4`}
@@ -22,36 +14,9 @@ const Header = () => {
       <Link href="/" style={{ textDecoration: "none" }}>
         <span className={`${Styles.home} `}>MO.</span>
       </Link>
-
       <div>
-        <Button
-          variant="outline-dark"
-          onClick={handleShow}
-          className={`${Styles.button} px-3`}
-        >
-          Menu
-        </Button>
-
-        <Offcanvas show={show} onHide={handleClose} placement={"bottom"}>
-          <Offcanvas.Header>
-            <Offcanvas.Title></Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-            <div className="d-flex align-items-center justify-content-center flex-column">
-              <Link href="/developer" className="nav-link my-4">
-                <span className={`${Styles.contact}`}>DEVELOPER</span>
-              </Link>
-
-              <Link href="/uidesigner" className="nav-link">
-                <span className={`${Styles.contact}`}>DESIGNER</span>
-              </Link>
-            </div>
-          </Offcanvas.Body>
-        </Offcanvas>
         <Link href="/contact" style={{ textDecoration: "none" }}>
-          <Button className={`${Styles.contactme} ms-3 px-3`} variant="light">
-            Contact
-          </Button>
+          <Button className={`${Styles.contactme} px-4 py-2 `}>Contact</Button>
         </Link>
       </div>
     </div>
