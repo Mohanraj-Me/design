@@ -1,7 +1,7 @@
 .hero {
   background-color: #ffffff;
   line-height: 130px;
-  padding-top: 120px !important;
+  padding-top: 110px !important;
   padding-bottom: 50px !important;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .fixedHead {
-  font-size: 300px;
+  font-size: 350px;
   font-weight: 900;
   color: #ebebeb;
 }
@@ -77,8 +77,10 @@
 }
 
 .developercard {
-  justify-content: space-around;
-  margin: 100px;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -180,10 +182,13 @@
 }
 
 .buttonback {
-  font-size: 20px;
+  font-size: 25px;
   border-radius: 50px;
-  margin-bottom: 120px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.137);
+  margin-bottom: 70px;
+  margin-top: 40px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.137) !important;
+  background-color: #ffffff !important;
+  border-style: none;
 }
 
 /* Foot */
