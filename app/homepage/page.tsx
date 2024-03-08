@@ -447,7 +447,7 @@ const HomePage = () => {
       <div className={`${Styles.container} `}>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/a.jpg"
+            src="./UI/a.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -463,7 +463,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/b.png"
+            src="./UI/b.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -479,7 +479,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/c.png"
+            src="./UI/c.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -495,7 +495,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/d.png"
+            src="./UI/d.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -511,7 +511,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/e.jpg"
+            src="./UI/e.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -527,7 +527,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/f.png"
+            src="./UI/f.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -543,7 +543,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/g.png"
+            src="./UI/g.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -559,7 +559,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/h.jpg"
+            src="./UI/h.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -575,7 +575,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/i.png"
+            src="./UI/i.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -591,7 +591,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/j.png"
+            src="./UI/j.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -607,7 +607,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/3D/3DA.png"
+            src="./3D/3DA.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -623,7 +623,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/3D/3DB.png"
+            src="./3D/3DB.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -639,7 +639,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/3D/3DD.png"
+            src="./3D/3DD.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -655,7 +655,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/3D/3DC.png"
+            src="./3D/3DC.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -671,7 +671,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/3D/3DE.jpg"
+            src="./3D/3DE.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -687,7 +687,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/3D/3DI.jpg"
+            src="./3D/3DI.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -702,7 +702,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/3D/3DF.jpg"
+            src="./3D/3DF.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -718,7 +718,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="/3D/3DG.jpg"
+            src="./3D/3DG.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -736,7 +736,7 @@ const HomePage = () => {
 
         <div className={Styles.cardshow}>
           <Image
-            src="/3D/3DK.jpg"
+            src="./3D/3DK.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
