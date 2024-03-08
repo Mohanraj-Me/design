@@ -99,7 +99,7 @@ const HomePage = () => {
           </div>
           <div className="d-flex justify-content-center my-5 ">
             <Image
-              src="./html.png"
+              src="/html.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -110,7 +110,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./css.png"
+              src="/css.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -121,7 +121,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./scss.png"
+              src="/scss.png"
               alt="Donation UI design"
               width={80}
               height={50}
@@ -132,7 +132,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./boot.png"
+              src="/boot.png"
               alt="Donation UI design"
               width={60}
               height={50}
@@ -143,7 +143,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./tailwind.png"
+              src="/tailwind.png"
               alt="Donation UI design"
               width={80}
               height={50}
@@ -154,7 +154,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./js.png"
+              src="/js.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -165,7 +165,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./ts.png"
+              src="/ts.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -176,7 +176,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./react.png"
+              src="/react.png"
               alt="Donation UI design"
               width={60}
               height={50}
@@ -187,7 +187,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./next.svg"
+              src="/next.svg"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -199,7 +199,7 @@ const HomePage = () => {
             />
 
             <Image
-              src="./redux.png"
+              src="/redux.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -210,7 +210,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./Git.png"
+              src="/Git.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -221,7 +221,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./github.png"
+              src="/github.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -232,7 +232,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./konva.png"
+              src="/konva.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -243,7 +243,7 @@ const HomePage = () => {
               }}
             />
             <Image
-              src="./post.png"
+              src="/post.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -256,6 +256,33 @@ const HomePage = () => {
           </div>
 
           <div className={`${Styles.developercard} d-flex flex-wrap`}>
+            <Button
+              className={`${Styles.card}  d-flex flex-column justify-content-start align-items-start`}
+              onClick={handleScrollToTop}
+            >
+              <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
+                NEXT.JS
+              </span>
+              <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
+                PORTFOLIO
+              </span>
+              <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
+                DESIGN
+              </span>
+              <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="60"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                  <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05" />
+                </svg>
+              </span>
+            </Button>
+
             <Button
               disabled
               className={`${Styles.card}  d-flex flex-column justify-content-start align-items-start`}
@@ -277,10 +304,8 @@ const HomePage = () => {
                   fill="currentColor"
                   viewBox="0 0 16 16"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"
-                  />
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
                 </svg>
               </span>
             </Button>
@@ -323,7 +348,7 @@ const HomePage = () => {
           </div>
           <div className="d-flex justify-content-center my-5 ">
             <Image
-              src="./figma.png"
+              src="/figma.png"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -333,7 +358,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./Illustrator.jpg"
+              src="/Illustrator.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -343,7 +368,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./photoshop.png"
+              src="/photoshop.png"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -353,7 +378,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./miro.png"
+              src="/miro.png"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -363,7 +388,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./webflow.png"
+              src="/webflow.png"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -373,7 +398,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./wix.png"
+              src="/wix.png"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -383,7 +408,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./spline.jpeg"
+              src="/spline.jpeg"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -393,7 +418,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./canva.jpg"
+              src="/canva.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -403,7 +428,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./blend.png"
+              src="/blend.png"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -411,7 +436,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./catia.png"
+              src="/catia.png"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -421,7 +446,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./solid.jpg"
+              src="/solid.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -431,7 +456,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./autocad.jpg"
+              src="/autocad.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -441,7 +466,7 @@ const HomePage = () => {
               className={Styles.icon}
             />
             <Image
-              src="./builder.png"
+              src="/builder.png"
               alt="Donation UI design"
               width={60}
               height={60}
@@ -456,13 +481,13 @@ const HomePage = () => {
                 className={`${Styles.cardtwo}  d-flex flex-column justify-content-start align-items-start`}
               >
                 <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
-                  CASE
+                  WEB PAGE
                 </span>
                 <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
-                  STUDY
+                  & APP
                 </span>
                 <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
-                  ONE
+                  UI DESIGN
                 </span>
                 <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
                   <svg
@@ -480,39 +505,42 @@ const HomePage = () => {
                 </span>
               </Button>
             </Link>
-            <Button
-              disabled
-              className={`${Styles.cardtwo}  d-flex flex-column justify-content-start align-items-start`}
-            >
-              <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
-                CASE
-              </span>
-              <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
-                STUDY
-              </span>
-              <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
-                TWO
-              </span>
-              <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="60"
-                  height="60"
-                  fill="currentColor"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
-                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
-                </svg>
-              </span>
-            </Button>
+            <Link href="/casetwo" className="nav-link">
+              <Button
+                className={`${Styles.cardtwo}  d-flex flex-column justify-content-start align-items-start`}
+              >
+                <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
+                  STORYCUT
+                </span>
+                <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
+                  APP
+                </span>
+                <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
+                  UI DESIGN
+                </span>
+                <span style={{ marginBottom: "-35px" }} className={Styles.gap}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="60"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"
+                    />
+                  </svg>
+                </span>
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
       <div className={`${Styles.container} `}>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/a.jpg"
+            src="/UI/a.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -528,7 +556,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/b.png"
+            src="/UI/b.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -544,7 +572,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/c.png"
+            src="/UI/c.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -560,7 +588,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/d.png"
+            src="/UI/d.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -576,7 +604,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/e.jpg"
+            src="/UI/e.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -592,7 +620,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/f.png"
+            src="/UI/f.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -608,7 +636,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/g.png"
+            src="/UI/g.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -624,7 +652,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/h.jpg"
+            src="/UI/h.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -640,7 +668,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/i.png"
+            src="/UI/i.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -656,7 +684,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/j.png"
+            src="/UI/j.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -672,7 +700,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DA.png"
+            src="/3D/3DA.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -688,7 +716,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DB.png"
+            src="/3D/3DB.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -704,7 +732,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DD.png"
+            src="/3D/3DD.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -720,7 +748,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DC.png"
+            src="/3D/3DC.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -736,7 +764,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DE.jpg"
+            src="/3D/3DE.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -752,7 +780,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DI.jpg"
+            src="/3D/3DI.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -767,7 +795,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DF.jpg"
+            src="/3D/3DF.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -783,7 +811,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DG.jpg"
+            src="/3D/3DG.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -801,7 +829,7 @@ const HomePage = () => {
 
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DK.jpg"
+            src="/3D/3DK.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -818,7 +846,7 @@ const HomePage = () => {
       </div>
       <div className="d-flex justify-content-center align-items-center mb-5">
         <Button
-          className={`${Styles.buttonback} d-flex align-items-center 
+          className={`${Styles.buttonback} d-flex align-items-center px-4 py-3
         `}
           variant="light"
           onClick={handleScrollToTop}
