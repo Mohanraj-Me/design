@@ -80,7 +80,7 @@ const casetwo = () => {
         </div>
         <div className={`${Styles.work} d-flex justify-content-center `}>
           <Image
-            src="/other/UI2.png"
+            src="./other/UI2.png"
             alt="Donation ui design"
             width={1334}
             height={4166}
