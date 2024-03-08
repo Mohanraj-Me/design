@@ -31,8 +31,12 @@
   .loadingspinnercontainer {
     font-weight: 900;
     font-size: 100px;
-    background-color: black;
-    color: rgb(26, 26, 26);
+    color: #eaeaea;
     height: 100vh;
+  }
+
+  .dot {
+    animation: blink 1s infinite;
+    color: #20323b;
   }
 }
