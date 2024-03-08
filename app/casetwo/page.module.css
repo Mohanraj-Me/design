@@ -1,0 +1,67 @@
+.herotop {
+  margin-top: 100px;
+  font-size: 120px;
+  color: #20323b;
+  font-weight: 900;
+}
+
+.freeze {
+  top: 10px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.buttonback {
+  font-size: 30px;
+  border-radius: 50px;
+  margin-bottom: 70px;
+  margin-top: 40px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.137) !important;
+  background-color: #ffffff;
+}
+
+.buttonback:hover {
+  font-size: 30px;
+  border-radius: 50px;
+  margin-bottom: 70px;
+  margin-top: 40px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.137) !important;
+  background-color: #20323b;
+  color: #ffffff;
+}
+
+.work {
+  background-color: #00000000;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+    width: 500px !important;
+    color: #000000;
+    font-weight: 900;
+  }
+
+  .freeze {
+    top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .buttonback {
+    font-size: 15px;
+    border-radius: 50px;
+  }
+
+  .work {
+    background-color: #00000000;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
