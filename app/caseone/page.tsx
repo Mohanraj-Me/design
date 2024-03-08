@@ -29,8 +29,8 @@ const caseone = () => {
 
   return (
     <div className="">
-      <div className="text-center my-4">
-        <span className={`${Styles.title}`}>DONATION FLOW UI</span>
+      <div className={`${Styles.herotop} text-center`}>
+        <span>DONATION FLOW UI</span>
       </div>
 
       <div>
@@ -39,7 +39,7 @@ const caseone = () => {
             <Button
               className={`${Styles.buttonback} d-flex align-items-center px-3
         `}
-              variant="outline-dark"
+              variant="light"
               onClick={goBack}
             >
               <svg
@@ -60,7 +60,7 @@ const caseone = () => {
           <Button
             className={`${Styles.buttonback} d-flex align-items-center ms-3 px-3
         `}
-            variant="dark"
+            variant="light"
             onClick={handleOpenFigma}
           >
             <svg
@@ -80,7 +80,7 @@ const caseone = () => {
         </div>
         <div className={`${Styles.work} d-flex justify-content-center `}>
           <Image
-            src="./other/UI1.png"
+            src="/other/UI1.png"
             alt="Donation ui design"
             width={1334}
             height={4166}
@@ -89,7 +89,7 @@ const caseone = () => {
         </div>
         <div className="d-flex justify-content-center align-items-center mb-5">
           <Button
-            className={`${Styles.buttonback} d-flex align-items-center 
+            className={`${Styles.buttonback} d-flex align-items-center px-3
         `}
             variant="light"
             onClick={handleScrollToTop}
