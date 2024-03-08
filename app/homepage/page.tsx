@@ -55,7 +55,6 @@ const HomePage = () => {
       >
         <span className={`${Styles.fixedHead}`}>SHOWCASE</span>
       </div>
-
       <div
         className={`${Styles.hero} p-3 d-flex align-items-center justify-content-center flex-column`}
       >
@@ -63,7 +62,6 @@ const HomePage = () => {
         <span className={Styles.heroHead}>DESIGN</span>
         <span className={Styles.heroHead}>ENTHUSIAST</span>
       </div>
-
       <div
         className={`${Styles.heroTwo}  p-3 d-flex align-items-center justify-content-center text-center flex-column`}
       >
@@ -97,161 +95,105 @@ const HomePage = () => {
           <div className="d-flex flex-column align-items-center justify-content-center">
             <span className={`${Styles.developerhead}`}>DEVELOPER</span>
           </div>
-          <div className="d-flex justify-content-center my-5 ">
+          <div className="d-flex flex-wrap align-items-center justify-content-center my-5 ">
             <Image
-              src="./html.png"
+              src="/html.png"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./css.png"
+              src="/css.png"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./scss.png"
+              src="/scss.png"
               alt="Donation UI design"
               width={80}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./boot.png"
+              src="/boot.png"
               alt="Donation UI design"
               width={60}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./tailwind.png"
+              src="/tailwind.png"
               alt="Donation UI design"
               width={80}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./js.png"
+              src="/js.png"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./ts.png"
+              src="/ts.png"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./react.png"
+              src="/react.png"
               alt="Donation UI design"
               width={60}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./next.svg"
+              src="/next.svg"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
 
             <Image
-              src="./redux.png"
+              src="/redux.png"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./Git.png"
+              src="/Git.png"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./github.png"
+              src="/github.png"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./konva.png"
+              src="/konva.png"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
             <Image
-              src="./post.png"
+              src="/post.png"
               alt="Donation UI design"
               width={50}
               height={50}
-              style={{
-                filter:
-                  "brightness(0) invert(1) grayscale(100%) contrast(100%)",
-                // marginRight: "60px",
-              }}
+              className={`${Styles.iconsskill}`}
             />
           </div>
 
@@ -346,131 +288,96 @@ const HomePage = () => {
           <div className="d-flex flex-column align-items-center justify-content-center">
             <span className={`${Styles.designerhead}`}>DESIGNER</span>
           </div>
-          <div className="d-flex justify-content-center my-5 ">
+          <div className="d-flex flex-wrap justify-content-center my-5 mx-3">
             <Image
-              src="./figma.png"
+              src="/figma.png"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./Illustrator.jpg"
+              src="/Illustrator.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./photoshop.png"
+              src="/photoshop.png"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./miro.png"
+              src="/miro.png"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./webflow.png"
+              src="/webflow.png"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./wix.png"
+              src="/wix.png"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./spline.jpeg"
+              src="/spline.jpeg"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./canva.jpg"
+              src="/canva.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./blend.png"
+              src="/blend.png"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{ marginRight: "60px" }}
               className={Styles.icon}
             />
             <Image
-              src="./catia.png"
+              src="/catia.png"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./solid.jpg"
+              src="/solid.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./autocad.jpg"
+              src="/autocad.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{
-                marginRight: "60px",
-              }}
               className={Styles.icon}
             />
             <Image
-              src="./builder.png"
+              src="/builder.png"
               alt="Donation UI design"
               width={60}
               height={60}
-              style={{ marginRight: "60px" }}
               className={Styles.icon}
             />
           </div>
@@ -540,7 +447,7 @@ const HomePage = () => {
       <div className={`${Styles.container} `}>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/a.jpg"
+            src="/UI/a.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -556,7 +463,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/b.png"
+            src="/UI/b.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -572,7 +479,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/c.png"
+            src="/UI/c.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -588,7 +495,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/d.png"
+            src="/UI/d.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -604,7 +511,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/e.jpg"
+            src="/UI/e.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -620,7 +527,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/f.png"
+            src="/UI/f.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -636,7 +543,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/g.png"
+            src="/UI/g.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -652,7 +559,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/h.jpg"
+            src="/UI/h.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -668,7 +575,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/i.png"
+            src="/UI/i.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -684,7 +591,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./UI/j.png"
+            src="/UI/j.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -700,7 +607,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DA.png"
+            src="/3D/3DA.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -716,7 +623,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DB.png"
+            src="/3D/3DB.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -732,7 +639,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DD.png"
+            src="/3D/3DD.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -748,7 +655,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DC.png"
+            src="/3D/3DC.png"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -764,7 +671,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DE.jpg"
+            src="/3D/3DE.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -780,7 +687,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DI.jpg"
+            src="/3D/3DI.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -795,7 +702,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DF.jpg"
+            src="/3D/3DF.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -811,7 +718,7 @@ const HomePage = () => {
         </div>
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DG.jpg"
+            src="/3D/3DG.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -829,7 +736,7 @@ const HomePage = () => {
 
         <div className={Styles.cardshow}>
           <Image
-            src="./3D/3DK.jpg"
+            src="/3D/3DK.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
@@ -843,7 +750,7 @@ const HomePage = () => {
             </Badge>
           </div>
         </div>
-      </div>
+      </div>{" "}
       <div className="d-flex justify-content-center align-items-center mb-5">
         <Button
           className={`${Styles.buttonback} d-flex align-items-center px-4 py-3
