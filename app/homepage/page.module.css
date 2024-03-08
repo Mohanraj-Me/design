@@ -24,9 +24,21 @@
 /* hero */
 
 .heroHead {
-  font-size: 150px;
+  font-size: 140px;
   font-weight: 900;
   color: #20323b !important;
+}
+
+.heroTwo {
+  background-color: #ffffff;
+  padding-bottom: 180px !important;
+}
+
+.heroTwoPara {
+  font-size: 23px;
+  line-height: 50px;
+  color: #545958 !important;
+  width: 1200px;
 }
 
 .resumeButton {
@@ -41,18 +53,6 @@
   background-color: #f3f3f3 !important;
   border-width: 5px;
   color: #20323b !important;
-}
-
-.heroTwo {
-  background-color: #ffffff;
-  padding-bottom: 180px !important;
-}
-
-.heroTwoPara {
-  font-size: 25px;
-  line-height: 60px;
-  color: #545958 !important;
-  width: 1300px;
 }
 
 /* DEVELOPER */
