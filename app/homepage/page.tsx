@@ -97,63 +97,63 @@ const HomePage = () => {
           </div>
           <div className="d-flex flex-wrap align-items-center justify-content-center my-5 ">
             <Image
-              src="/html.png"
+              src="./html.png"
               alt="Donation UI design"
               width={50}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/css.png"
+              src="./css.png"
               alt="Donation UI design"
               width={50}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/scss.png"
+              src="./scss.png"
               alt="Donation UI design"
               width={80}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/boot.png"
+              src="./boot.png"
               alt="Donation UI design"
               width={60}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/tailwind.png"
+              src="./tailwind.png"
               alt="Donation UI design"
               width={80}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/js.png"
+              src="./js.png"
               alt="Donation UI design"
               width={50}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/ts.png"
+              src="./ts.png"
               alt="Donation UI design"
               width={50}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/react.png"
+              src="./react.png"
               alt="Donation UI design"
               width={60}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/next.svg"
+              src="./next.svg"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -161,35 +161,35 @@ const HomePage = () => {
             />
 
             <Image
-              src="/redux.png"
+              src="./redux.png"
               alt="Donation UI design"
               width={50}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/Git.png"
+              src="./Git.png"
               alt="Donation UI design"
               width={50}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/github.png"
+              src="./github.png"
               alt="Donation UI design"
               width={50}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/konva.png"
+              src="./konva.png"
               alt="Donation UI design"
               width={50}
               height={50}
               className={`${Styles.iconsskill}`}
             />
             <Image
-              src="/post.png"
+              src="./post.png"
               alt="Donation UI design"
               width={50}
               height={50}
@@ -290,91 +290,91 @@ const HomePage = () => {
           </div>
           <div className="d-flex flex-wrap justify-content-center my-5 mx-3">
             <Image
-              src="/figma.png"
+              src="./figma.png"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/Illustrator.jpg"
+              src="./Illustrator.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/photoshop.png"
+              src="./photoshop.png"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/miro.png"
+              src="./miro.png"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/webflow.png"
+              src="./webflow.png"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/wix.png"
+              src="./wix.png"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/spline.jpeg"
+              src="./spline.jpeg"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/canva.jpg"
+              src="./canva.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/blend.png"
+              src="./blend.png"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/catia.png"
+              src="./catia.png"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/solid.jpg"
+              src="./solid.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/autocad.jpg"
+              src="./autocad.jpg"
               alt="Donation UI design"
               width={60}
               height={60}
               className={Styles.icon}
             />
             <Image
-              src="/builder.png"
+              src="./builder.png"
               alt="Donation UI design"
               width={60}
               height={60}
