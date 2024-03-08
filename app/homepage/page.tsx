@@ -540,7 +540,7 @@ const HomePage = () => {
       <div className={`${Styles.container} `}>
         <div className={Styles.cardshow}>
           <Image
-            src="/UI/a.jpg"
+            src="./UI/a.jpg"
             alt="Donation UI design"
             width={1334}
             height={4166}
