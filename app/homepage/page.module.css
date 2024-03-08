@@ -43,7 +43,6 @@
 
 .resumeButton {
   margin-top: 70px;
-  margin-left: 20px;
   width: 500px;
   height: 70px;
   border-radius: 50px !important;
@@ -288,7 +287,6 @@
 
   .resumeButton {
     margin-top: 70px;
-    margin-left: 20px;
     width: 200px;
     height: 70px;
     border-radius: 50px !important;
