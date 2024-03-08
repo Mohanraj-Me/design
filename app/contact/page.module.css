@@ -61,8 +61,7 @@
     overflow: hidden;
   }
   .head {
-    /* margin-top: 60px; */
-    color: #141414;
+    color: #20323b;
     font-size: 65px;
     font-weight: 900;
     width: 100%;
@@ -78,8 +77,9 @@
     padding-right: 0px;
   }
   .mail {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 900;
+    color: #20323b !important;
   }
 
   .text {
@@ -87,14 +87,15 @@
     font-size: 18px;
     padding-left: 25px;
     padding-right: 25px;
+    line-height: 30px;
   }
   .butto {
     font-size: 20px;
     font-weight: 900;
-    color: #ffffff !important;
+    color: #20323b !important;
     width: 100px;
     height: 100px !important;
-    background-color: #000000 !important;
+    background-color: #20323b !important;
     border-style: none !important;
     border-radius: 50px !important;
   }
