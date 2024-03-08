@@ -39,6 +39,13 @@
 }
 
 @media (max-width: 768px) {
+  .herotop {
+    margin-top: 100px;
+    font-size: 60px;
+    color: #20323b;
+    font-weight: 900;
+  }
+
   .title {
     font-size: 30px;
     width: 500px !important;
@@ -53,13 +60,13 @@
   }
 
   .buttonback {
-    font-size: 15px;
-    border-radius: 50px;
+    font-size: 15px !important;
+    border-radius: 50px !important;
   }
 
   .work {
     background-color: #00000000;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
