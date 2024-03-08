@@ -9,7 +9,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 const Header = () => {
   return (
     <div
-      className={`${Styles.header} d-flex align-items-center justify-content-between p-4`}
+      className={`${Styles.header} d-flex align-items-center justify-content-between`}
     >
       <Link href="/" style={{ textDecoration: "none" }}>
         <span className={`${Styles.home} `}>MO.</span>
