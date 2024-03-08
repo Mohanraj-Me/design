@@ -30,8 +30,7 @@
 @media (max-width: 768px) {
   /* Adjustments for smaller screens */
   .header {
-    height: auto;
-    padding: 10px;
+    height: 60px;
     justify-content: space-between;
   }
 
