@@ -458,7 +458,7 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
-            - Mobile launcher design
+            <div className="mt-2">A sleek and intuitive mobile launcher designed to enhance user experience by organizing apps efficiently and providing quick access to frequently used features.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
