@@ -8,6 +8,7 @@
   color: #b1b1b1;
   font-size: 30px;
   padding-left: 50px;
+    padding-right: 50px;
 }
 
 .butto {
@@ -45,7 +46,7 @@
 
 .head {
   color: #20323b;
-  font-size: 300px;
+  font-size: 280px;
   font-weight: 900;
   width: 100%;
 }
