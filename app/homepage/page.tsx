@@ -458,6 +458,7 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
+               - Mobie Launcher UI
             <div className="mt-2">A sleek and intuitive mobile launcher designed to enhance user experience by organizing apps efficiently and providing quick access to frequently used features.</div>
           </div>
         </div>
@@ -474,7 +475,8 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
-            - Coffee store App design
+            - Coffee store UI
+              <div className="mt-2"> An engaging mobile application tailored for coffee enthusiasts, providing a seamless experience for discovering, ordering, and enjoying coffee from local cafes.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
@@ -490,7 +492,8 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
-            - TO DO Application
+            - TO DO UI
+               <div className="mt-2">A productivity-focused app designed to help users organize tasks, set reminders, and manage their schedules effectively.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
@@ -506,7 +509,8 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
-            - Calcus App design
+            - Calcus UI
+               <div className="mt-2">A minimalist calculator application with a user-friendly interface, offering basic and advanced mathematical functions for everyday use.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
@@ -522,7 +526,8 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
-            - Smart watch design
+            - Smart watch UI
+               <div className="mt-2"> An innovative user interface designed specifically for smartwatches, delivering essential information and functionalities at a glance.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
@@ -538,7 +543,8 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
-            - Comic App design
+            - Comic Shop UI
+               <div className="mt-2">A vibrant and immersive user interface tailored for comic book enthusiasts, offering an immersive reading experience with interactive features.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
@@ -554,7 +560,8 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
-            - Music App design
+            - Music App UI
+               <div className="mt-2">A dynamic and visually appealing interface for a music streaming application, providing users with access to a vast catalog of songs and personalized playlists.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
@@ -571,6 +578,7 @@ const HomePage = () => {
               User Interface
             </Badge>{" "}
             - Travel App design
+               <div className="mt-2">An intuitive travel companion app designed to simplify trip planning, itinerary management, and exploration of destinations.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
@@ -586,7 +594,8 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
-            - Team Build App design
+            - Team Build App UI
+               <div className="mt-2"> A collaborative platform fostering team cohesion and productivity through innovative features for communication, task delegation, and goal tracking.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
@@ -602,7 +611,8 @@ const HomePage = () => {
             <Badge pill bg="warning">
               User Interface
             </Badge>{" "}
-            - File Manager App design
+            - File Manager App UI
+               <div className="mt-2">A versatile file management application designed to organize, secure, and access files across various devices and cloud storage platforms.</div>
           </div>
         </div>
         <div className={Styles.cardshow}>
