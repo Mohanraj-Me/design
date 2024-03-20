@@ -166,8 +166,8 @@
 .cardshow {
   margin-bottom: 120px;
   padding: 10px;
-  width: 800px;
-  height: 900px;
+  width: 600px;
+  height: 700px;
   background-color: rgba(255, 255, 255, 0.336);
   border-radius: 30px;
   border: 4px solid #ffffff;
@@ -188,7 +188,7 @@
 }
 
 .buttonback {
-  font-size: 25px;
+  font-size: 15px;
   border-radius: 50px;
   margin-bottom: 70px;
   margin-top: 40px;
